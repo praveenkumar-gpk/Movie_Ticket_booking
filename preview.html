@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>Ticket Booking</h1>
+        <p>Total Booked: <a id="clicks">0</a></p>
+        <input type="number"  id="search">
+        
+    </div>
+    <div id="detail">
+        <form onsubmit="handleAdd(event)">
+            <label for="name">User Name</label>
+            <input type="text" id="name" placeholder="Type your name here">
+            <label for="seat">Seat Number</label>
+            <input type="number" id="seat" placeholder="Seat number here">
+            <button type="submit">Add</button>
+        </form>
+        <h2 id="header"></h2>
+        <ul id="list">
+
+        </ul>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+
+
+</html>

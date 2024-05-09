@@ -1,0 +1,27 @@
+#heading
+{
+    text-align: center;
+}
+h1{color: darkgoldenrod;}
+p{color: darkolivegreen;}
+#detail
+{
+    margin-top: 100px;
+}
+*
+{
+    background-color: whitesmoke;
+    font-family: cursive;
+}
+button
+{
+    background-color: blanchedalmond;
+}
+.hide
+{
+    visibility: hidden;
+}
+.toggle
+{
+    visibility: visible;
+}
